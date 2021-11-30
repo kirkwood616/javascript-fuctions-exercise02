@@ -45,7 +45,6 @@ console.log("-----------");
   let north = 0;
   let east = 0;
   let direction = "up";
-  // let position = `${north} N, ${east} E`;
 
   const moveForward = (distance) => {
     if (direction === "up") {
